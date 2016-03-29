@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad63d354-5f67-4f7e-bf2e-6ede3bfd50ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/datepicker/calendar_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/datepicker/calendar_icon_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/arrow_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/displaytag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/ico_file_csv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/ico_file_excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/ico_file_pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/ico_file_rtf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/ico_file_xml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/paginazione.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/paginazione_ahead.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/paginazione_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/valid-xhtml10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/viewsource.png" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/glassfish.extensions.xml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/javaeeExternalResources.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/artifacts/aggregator_war.xml" />
@@ -77,18 +94,102 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/src/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reporter.eml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/displaytag.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/struts.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/DAO/ConnectionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/DisplaySourceServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/ListHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/ListObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/LongDateWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/RandomSampleUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/ReportList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/ReportableListObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/TestList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/decorators/HssfTotalWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/decorators/HtmlTotalWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/decorators/ItextTotalWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/decorators/TotalWrapperTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/displaytag/sample/decorators/Wrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/ForceDirected.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/alternative.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/displayDecorator.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/displaytag.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/dropdown.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/ex.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/maven-base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/maven-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/teststyles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/datepicker/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/datepicker/datepickercontrol.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/datepicker/datepickercontrol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/datepicker/datepickercontrol_lnx.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/datepicker/floating-1.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/axes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/chart-labels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dashed-canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-combined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-gviz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-interaction-model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-options-reference.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-range-selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-tickers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph-utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/dygraph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/install.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/legend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/phantom-driver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/phantom-perf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/rgbcolor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/stacktrace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/demo_files/strftime-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/axes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/chart-labels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dashed-canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-combined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-gviz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-interaction-model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-options-reference.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-range-selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-tickers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph-utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/dygraph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/install.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/legend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/phantom-driver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/phantom-perf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/rgbcolor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/stacktrace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dygraph/strftime-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/errorPage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/gui.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/jit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/protovis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/welcome.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/META-INF/application.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorld.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorldClient.java" />
@@ -125,7 +226,30 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_springframework_spring_test_2_5_6.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/Struts2Example.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/asm-commons.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/asm-tree.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/asm.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-fileupload.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-io.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-lang.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/freemarker.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javassist.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ognl.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/struts2-core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xwork-core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/struts.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/displaytag.properties" afterPath="$PROJECT_DIR$/src/displaytag.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/struts.properties" afterPath="$PROJECT_DIR$/src/struts.properties" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" afterPath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/reporter/struts.xml" afterPath="$PROJECT_DIR$/out/production/reporter/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reporter.eml" afterPath="$PROJECT_DIR$/reporter.eml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.classpath" afterPath="$PROJECT_DIR$/../reports/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../reports/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.project" afterPath="$PROJECT_DIR$/../reports/.project" />
@@ -154,64 +278,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="displaytag.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/displaytag.properties">
+      <file leaf-file-name="ConnectionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sayantan/DAO/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+      <file leaf-file-name="Gui2FormVars.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding>
+                <element signature="e#5325#5326#0" expanded="true" />
+                <element signature="e#5349#5350#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="struts.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/struts.properties">
+        <entry file="file://$PROJECT_DIR$/src/struts.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/struts.xml">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -220,11 +334,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -236,11 +350,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="struts_2_3" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -255,6 +370,11 @@
         <option value="$PROJECT_DIR$/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/resources/struts.properties" />
         <option value="$PROJECT_DIR$/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/errorPage.jsp" />
+        <option value="$PROJECT_DIR$/web/gui.jsp" />
+        <option value="$PROJECT_DIR$/web/welcome.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -362,6 +482,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -376,7 +500,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decorators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sayantan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sayantan" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,6 +597,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="RunManager" selected="GlassFish Server.Unnamed">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1009,16 +1225,16 @@
       <option name="presentableId" value="Default" />
       <updated>1458839836497</updated>
       <workItem from="1458839847129" duration="3375000" />
-      <workItem from="1459266525365" duration="1579000" />
+      <workItem from="1459266525365" duration="2893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4954000" />
+    <option name="totallyTimeSpent" value="6268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1030,13 +1246,14 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49019608" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1050,7 +1267,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
@@ -1082,17 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1101,7 +1306,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/displaytag.properties">
+    <entry file="file://$PROJECT_DIR$/src/displaytag.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -1109,7 +1314,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1136,11 +1341,89 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2213">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/errorPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/gui.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="233" column="7" selection-start-line="233" selection-start-column="7" selection-end-line="233" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/ex.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/DAO/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="e#5325#5326#0" expanded="true" />
+            <element signature="e#5349#5350#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

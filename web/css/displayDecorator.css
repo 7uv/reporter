@@ -1,0 +1,17 @@
+@Author: Sayantan
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#even {
+	background:#76B6DA;
+	color: #F4F4F4;
+}
+
+#odd {
+	color:#76B6DA;
+	background: #F4F4F4;
+}
+

@@ -3,7 +3,9 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="src" path="web/WEB-INF/lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts 2-2.3.20.1"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JBoss 7.5.0.Final-redhat-21"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib"/>
 	<classpathentry kind="output" path="out/production/reporter"/>
 </classpath>
