@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Struts 2-2.3.20.1">
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/ognl.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/commons-fileupload.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/xwork-core.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/commons-lang.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/struts2-core.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/asm.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/asm-commons.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/asm-tree.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/freemarker.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/commons-io.jar" />
+    <archive path="/home/me/Documents/Java_Projects/Projects/reporter/lib/javassist.jar" />
+  </library>
+</eclipse-userlibraries>
+
