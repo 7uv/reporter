@@ -7,20 +7,17 @@ import com.opensymphony.xwork2.Preparable;
 import com.sayantan.ActionForm.Gui2FormVars;
 import org.apache.log4j.Logger;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Map;
 
-public class StockCorrelation extends ActionSupport implements
+public class StockCorrelationBackUp extends ActionSupport implements
 		ModelDriven<Object>, Preparable {
 	private static final long serialVersionUID = -7012445214546281834L;
 	Map<String, Object> session = ActionContext.getContext().getSession();
 
 	private Gui2FormVars appFormVars;
 	private static final Logger logger = Logger
-			.getLogger(StockCorrelation.class);
+			.getLogger(StockCorrelationBackUp.class);
 	ArrayList<String> securityValuesq = new ArrayList<String>();
 
 	public void prepare() throws Exception {
@@ -34,6 +31,8 @@ public class StockCorrelation extends ActionSupport implements
 	@Override
 	public String execute() throws Exception {
 		logger.info("RUNNING AccessDataDetails");
+ 
+/*
 		// user filters
 		// price time duration
 		DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
@@ -72,6 +71,67 @@ public class StockCorrelation extends ActionSupport implements
 				+ "' and sp.security = hv.security and sp.date = hv.date order by sp.date ";
 		logger.info(stock1query);
 
+		String stock2query = "select distinct sp.date, sp.close, hv.hv"
+				+ appFormVars.getHvBetaPeriod()
+				+ " from stock_prices sp, historical_volatility hv "
+				+ "where "
+				+ "hv.hv"
+				+ appFormVars.getHvBetaPeriod()
+				+ " is not null and "
+				+ "sp.date between '"
+				+ orderDate
+				+ "' and '"
+				+ todayDate
+				+ "' "
+				+ "and sp.security='"
+				+ Gui2FormVars.getSecurity2()
+				+ "' and sp.security = hv.security and sp.date = hv.date order by sp.date ";
+		logger.info(stock2query);
+
+		String niftyquery = "select distinct sp.date, sp.close, hv.hv"
+				+ appFormVars.getHvBetaPeriod()
+				+ " from stock_prices sp, historical_volatility hv "
+				+ "where "
+				+ "sp.date between '"
+				+ orderDate
+				+ "' and '"
+				+ todayDate
+				+ "' "
+				+ "and sp.security='NIFTY' "
+				+ "and sp.security = hv.security and sp.date = hv.date order by sp.date ";
+		String hv1Query = "select hv.hv"
+				+ appFormVars.getHvBetaPeriod()
+				+ ", db.betadaily"
+				+ appFormVars.getHvBetaPeriod()
+				+ ", db.corr"
+				+ appFormVars.getHvBetaPeriod()
+				+ "  from historical_volatility hv, daily_beta db where hv.date = '"
+				+ todayDate
+				+ "' and hv.security='"
+				+ Gui2FormVars.getSecurity1()
+				+ "' and db.date=hv.date and db.security=hv.security";
+		String hv2Query = "select hv.hv"
+				+ appFormVars.getHvBetaPeriod()
+				+ ", db.betadaily"
+				+ appFormVars.getHvBetaPeriod()
+				+ ", db.corr"
+				+ appFormVars.getHvBetaPeriod()
+				+ "  from historical_volatility hv, daily_beta db where hv.date = '"
+				+ todayDate
+				+ "' and hv.security='"
+				+ Gui2FormVars.getSecurity2()
+				+ "' and db.date=hv.date and db.security=hv.security";
+
+		String hvNiftyQuery = "select hv.hv"
+				+ appFormVars.getHvBetaPeriod()
+				+ ", db.betadaily"
+				+ appFormVars.getHvBetaPeriod()
+				+ ", db.corr"
+				+ appFormVars.getHvBetaPeriod()
+				+ "  from historical_volatility hv, daily_beta db where hv.date = '"
+				+ todayDate
+				+ "' and hv.security='NIFTY' and db.date=hv.date and db.security=hv.security";
+
 		logger.info(hv1Query);
 		appFormVars.setSec1(Gui2FormVars.getSecurity1());
 		appFormVars.setSec2(Gui2FormVars.getSecurity2());
@@ -85,6 +145,21 @@ public class StockCorrelation extends ActionSupport implements
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rsDataSet = null;
+		Connection conn1 = null;
+		Statement stmt1 = null;
+		ResultSet rsDataSet1 = null;
+		Connection conn2 = null;
+		Statement stmt2 = null;
+		ResultSet rsDataSet2 = null;
+		Connection connHv1 = null;
+		Statement stmtHv1 = null;
+		ResultSet rsDataSetHv1 = null;
+		Connection connHv2 = null;
+		Statement stmtHv2 = null;
+		ResultSet rsDataSetHv2 = null;
+		Connection connHvNifty = null;
+		Statement stmtHvNifty = null;
+		ResultSet rsDataSetHvNifty = null;
 
 		conn = ConnectionManager.getConnection();
 		stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
@@ -385,6 +460,177 @@ public class StockCorrelation extends ActionSupport implements
 		for (int a = 0; a < returnHistory2.size(); a++)
 			sumReturn12 = sumReturn12 + returnHistory2.get(a)
 					* returnHistory2.get(a);
+		*/
+/*for (int a = 0; a < hv1.size(); a++)
+			sumHv1 = sumHv1 + hv1.get(a);
+		for (int a = 0; a < hv2.size(); a++)
+			sumHv2 = sumHv2 + hv2.get(a);
+		// logger.info("pkpkp " + sumPrice);
+		hv1avg = sumHv1 / (hv1.size() - 1);
+		hv2avg = sumHv2 / (hv2.size() - 1);
+		*//*
+
+		// logger.info("asdf: " + hv1avg + " " + hv2avg);
+
+		if (returnHistory1.get(0) == null)
+			returnHistory1.put(0, 0.0);
+		if (returnHistory2.get(0) == null)
+			returnHistory2.put(0, 0.0);
+//		if (hv1.get(0) == null)
+//			hv1.put(0, 0.0);
+//		if (hv2.get(0) == null)
+//			hv2.put(0, 0.0);
+
+//		for (int a = 0; a < returnHistoryRatio.size(); a++)
+//			priceRatio.put(a,
+//					dateHistory.get(a) + "," + returnHistoryRatio.get(a));
+//		for (int a = 0; a < returnHistoryRatio.size(); a++)
+//			priceCompare.put(a, dateHistory.get(a) + "," + returnHistory1.get(a)
+//					+ "," + returnHistory2.get(a));
+
+		// calculation of hv ratio
+		*/
+/*
+		 * for (int a = 0; a < priceHistoryRatio.size(); a++) sumHvRatio =
+		 * sumHvRatio + (priceHistoryRatio.get(a) - (sumPrice /
+		 * (priceHistoryRatio .size() - 1))) (priceHistoryRatio.get(a) -
+		 * (sumPrice / (priceHistoryRatio .size() - 1)));
+		 *//*
+
+		for (int a = 0; a < returnHistoryRatio.size(); a++)
+			if(returnHistoryRatio.get(a) != null)
+				sumHvRatio = sumHvRatio
+						+ (returnHistoryRatio.get(a))
+						* (returnHistoryRatio.get(a));
+		//hvMeanRatio = Math.sqrt(Double.parseDouble(appFormVars.getHvBetaPeriod()) * sumHvRatio / (returnHistoryRatio.size()-1));
+		// avg hv -- direct approach
+		hvMeanRatio = hv2avg/hv1avg;
+		// calculation of correlation
+		for (int m = 0; m < returnHistory1.size(); m++) {
+			if(returnHistory1.get(m) != null && returnHistory2.get(m) != null)
+				covariance
+						.put(m,
+								((((returnHistory1.get(m)) - (sumPrice1 / (returnHistory1
+										.size() - 1))) * ((returnHistory2.get(m)) - (sumPrice2 / (returnHistory2
+										.size() - 1))))));
+		}
+		logger.info("covar: " + covariance.values());
+		for (int a = 0; a < covariance.size(); a++)
+			sumCovariance = sumCovariance + covariance.get(a);
+
+		// logger.info(covariance);
+		// logger.info(sumCovariance + " " + covariance.size() + " "
+		// + hv1avg + " " + hv2avg + "jsdfh");
+
+		// correlation = sumCovariance/ ((covariance.size() - 1) * hv1avg *
+		// hv2avg);
+
+		for (int a = 0; a < returnHistory1.size(); a++)
+			stock1ReturnSum = stock1ReturnSum + returnHistory1.get(a)
+					* returnHistory1.get(a);
+		for (int a = 0; a < returnHistory2.size(); a++)
+			stock2ReturnSum = stock2ReturnSum + returnHistory2.get(a)
+					* returnHistory2.get(a);
+		for (int a = 0; a < returnHistory1.size(); a++)
+			stockReturnSum = stockReturnSum + returnHistory1.get(a)
+					* returnHistory2.get(a);
+		correlation = stockReturnSum
+				/ Math.sqrt(stock1ReturnSum * stock2ReturnSum);
+		appFormVars.setFlag(1);
+		// logger.info(returnRatio.size()+ " " +
+		// returnRatio.get(returnRatio.size()-1));
+		// returnRatio.put(returnRatio.size(),returnRatio.get(returnRatio.size() -
+		// 1).substring(0,(returnRatio.get(returnRatio.size() - 1).length() -
+		// 1)));
+		logger.info("gr" + priceRatio);
+
+		*/
+/*
+		// calculation of index correlation
+				for (int m = 0; m < returnHistory1.size(); m++) {
+					covariance
+							.put(m,
+									((((returnHistory1.get(m)) - (sumPrice1 / (returnHistory1
+											.size() - 1))) * ((returnHistory2.get(m)) - (sumPrice2 / (returnHistory2
+											.size() - 1))))));
+				}
+				logger.info("covar: " + covariance.values());
+				for (int a = 0; a < covariance.size(); a++)
+					sumCovariance = sumCovariance + covariance.get(a);
+
+				// logger.info(covariance);
+				// logger.info(sumCovariance + " " + covariance.size() + " "
+				// + hv1avg + " " + hv2avg + "jsdfh");
+
+				// correlation = sumCovariance/ ((covariance.size() - 1) * hv1avg *
+				// hv2avg);
+
+				for (int a = 0; a < returnHistory1.size(); a++)
+					stock1ReturnSum = stock1ReturnSum + returnHistory1.get(a)
+							* returnHistory1.get(a);
+				for (int a = 0; a < returnHistory2.size(); a++)
+					stock2ReturnSum = stock2ReturnSum + returnHistory2.get(a)
+							* returnHistory2.get(a);
+				for (int a = 0; a < returnHistory1.size(); a++)
+					stockReturnSum = stockReturnSum + returnHistory1.get(a)
+							* returnHistory2.get(a);
+				correlation = stockReturnSum
+						/ Math.sqrt(stock1ReturnSum * stock2ReturnSum);
+				appFormVars.setFlag(1);
+				// logger.info(returnRatio.size()+ " " +
+				// returnRatio.get(returnRatio.size()-1));
+				// returnRatio.put(returnRatio.size(),returnRatio.get(returnRatio.size() -
+				// 1).substring(0,(returnRatio.get(returnRatio.size() - 1).length() -
+				// 1)));
+				logger.info("gr" + priceRatio);
+		*//*
+
+
+		
+		appFormVars.setDateHistory(dateHistory);
+		if(returnHistory1.get(returnHistory1.size() - 1) != 0.0){
+		BigDecimal pr = new BigDecimal(priceHistory2.get(priceHistory2.size() - 1)
+						/ priceHistory1.get(priceHistory1.size() - 1));
+		pr = pr.setScale(4, RoundingMode.HALF_UP);
+		prS = pr.toString();}
+		BigDecimal lp = new BigDecimal(priceHistory.get(priceHistory.size() - 1));
+		lp = lp.setScale(2, RoundingMode.HALF_UP);
+		String lpS = lp.toString();
+		BigDecimal lp1 = new BigDecimal(priceHistory1.get(priceHistory1.size() - 1));
+		lp1 = lp1.setScale(2, RoundingMode.HALF_UP);
+		String lp1S = lp1.toString();
+		BigDecimal lp2 = new BigDecimal(priceHistory2.get(priceHistory2.size() - 1));
+		lp2 = lp2.setScale(2, RoundingMode.HALF_UP);
+		String lp2S = lp2.toString();
+		logger.info("sum "+sumPrice + " "+ priceHistoryRatio.size());
+		BigDecimal mpr = new BigDecimal(sumPrice / (priceHistoryRatio.size() - 1));
+		mpr = mpr.setScale(4, RoundingMode.HALF_UP);
+		String mprS = mpr.toString();
+		BigDecimal hvr = new BigDecimal(hvMeanRatio);
+		hvr = hvr.setScale(4, RoundingMode.HALF_UP);
+		String hvrS = hvr.toString();
+		BigDecimal cor = new BigDecimal(correlation);
+		cor = cor.setScale(4, RoundingMode.HALF_UP);
+		String corS = cor.toString();
+		appFormVars
+				.setLatestPriceRatio(Double.parseDouble(prS));
+		appFormVars.setLatestPrice(Double.parseDouble(lpS));
+		appFormVars
+				.setLatestPrice1(Double.parseDouble(lp1S));
+		appFormVars
+				.setLatestPrice2(Double.parseDouble(lp2S));
+		appFormVars.setPriceHistory(priceHistory);
+		appFormVars.setPriceHistory1(priceHistory1);
+		appFormVars.setPriceHistory2(priceHistory2);
+		Gui2FormVars.setPriceRatio(priceRatio);
+		Gui2FormVars.setPriceCompare(priceCompare);
+		appFormVars.setMeanPriceRatio(Double.parseDouble(mprS));
+		appFormVars.setHvMeanRatio(Double.parseDouble(hvrS));
+		appFormVars.setCorrelation(Double.parseDouble(corS));
+
+		session.put("sec", securityValues);
+		logger.info("Stock Correlation Done!" + dateHistory.values());
+*/
 
 		return SUCCESS;
 	}

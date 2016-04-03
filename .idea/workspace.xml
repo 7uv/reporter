@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad63d354-5f67-4f7e-bf2e-6ede3bfd50ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/.history/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616.sql" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/console.sql" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/glassfish.extensions.xml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/javaeeExternalResources.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/artifacts/aggregator_war.xml" />
@@ -77,8 +79,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/src/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVarsBak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/guiBakup.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetailsBackup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/AccessSectorDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/CopyOfAccessDataDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBackUp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/inserts.sql" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/META-INF/application.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorld.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorldClient.java" />
@@ -117,10 +123,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/Struts2Example.iml" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" afterPath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java" afterPath="$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/gui.jsp" afterPath="$PROJECT_DIR$/web/gui.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.classpath" afterPath="$PROJECT_DIR$/../reports/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../reports/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.project" afterPath="$PROJECT_DIR$/../reports/.project" />
@@ -143,22 +146,178 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="reporter" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InitializeDataDetails.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InitializeDataDetails.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            <state relative-caret-position="-521">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <marker date="1459685176596" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
                 <marker date="1459685176596" expanded="true" signature="1673:1742" placeholder="select date " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockCorrelation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2025">
+              <caret line="146" column="57" selection-start-line="146" selection-start-column="57" selection-end-line="146" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1459699569771" expanded="true" signature="1880:2328" placeholder="select disti... stock_prices" />
+                <marker date="1459699569771" expanded="false" signature="4813:4828" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="4885:4902" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="4960:4977" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="5035:5052" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="5114:5131" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="5192:5209" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="5268:5285" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="5344:5361" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="5424:5441" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="true" signature="5499:5516" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="true" signature="5573:5590" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="true" signature="5638:5655" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="true" signature="5703:5720" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="true" signature="5775:5792" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="true" signature="5845:5862" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="6531:6539" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="6582:6590" placeholder="&lt;~&gt;" />
+                <marker date="1459699569771" expanded="false" signature="6654:6672" placeholder="&lt;~&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessDataDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10785">
+              <caret line="743" column="2" selection-start-line="743" selection-start-column="2" selection-end-line="743" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1459698854504" expanded="true" signature="1174:1226" placeholder="select disti... " />
+                <marker date="1459698854504" expanded="false" signature="6645:6662" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="6721:6738" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="6785:6802" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="6854:6871" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="6923:6940" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="6992:7009" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7061:7078" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7130:7147" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7200:7217" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7269:7286" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7338:7355" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7407:7424" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7478:7495" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7548:7565" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7618:7635" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7689:7706" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7759:7776" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7829:7846" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7901:7918" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="7972:7989" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8043:8060" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8114:8131" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8185:8202" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8256:8273" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8326:8343" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8395:8412" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8464:8481" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8533:8550" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8604:8621" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8674:8691" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8744:8761" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8815:8832" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8885:8902" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="8955:8972" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9025:9042" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9094:9111" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9163:9180" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9234:9251" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9304:9321" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9374:9391" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9445:9462" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9515:9532" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9585:9602" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9653:9661" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9711:9719" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9762:9770" placeholder="&lt;~&gt;" />
+                <marker date="1459698854504" expanded="false" signature="9835:9854" placeholder="&lt;~&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessDataDetailsBackup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetailsBackup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccessSectorDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessSectorDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1459699026890" expanded="true" signature="1442:1617" placeholder="select disti... security_master" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockCorrelationBackUp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBackUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inserts.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inserts.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,38 +338,6 @@
             <state relative-caret-position="285">
               <caret line="45" column="50" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="56" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gui2FormVarsBak.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVarsBak.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="35" column="30" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#852#860#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gui2FormVars.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1497#1498#0" expanded="true" />
-                <element signature="e#1560#1561#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#2110#2111#0" expanded="true" />
-                <element signature="e#2143#2144#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -248,10 +375,16 @@
         <option value="$PROJECT_DIR$/src/org/displaytag/sample/decorators/HssfTotalWrapper.java" />
         <option value="$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVarsBackup.java" />
         <option value="$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVarsBak.java" />
-        <option value="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java" />
         <option value="$PROJECT_DIR$/web/gui.jsp" />
         <option value="$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java" />
         <option value="$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java" />
+        <option value="$PROJECT_DIR$/src/inserts.sql" />
+        <option value="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBackUp.java" />
+        <option value="$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java" />
+        <option value="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBak.java" />
+        <option value="$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetailsBackup.java" />
+        <option value="$PROJECT_DIR$/src/com/sayantan/Action/AccessSectorDetails.java" />
+        <option value="$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java" />
       </list>
     </option>
   </component>
@@ -328,46 +461,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,15 +557,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/sayantan/Action" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sayantan.Action" />
       <recent name="com.sayantan.ActionForm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1159,50 +1255,86 @@
       <workItem from="1459266525365" duration="3661000" />
       <workItem from="1459592754797" duration="122000" />
       <workItem from="1459592918360" duration="1564000" />
-      <workItem from="1459641078318" duration="9522000" />
+      <workItem from="1459641078318" duration="13983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18244000" />
+    <option name="totallyTimeSpent" value="22705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49019608" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49019608" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49019608" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1229,7 +1361,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1459685176596" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
             <marker date="1459685176596" expanded="true" signature="1673:1742" placeholder="select date " />
           </folding>
@@ -1241,30 +1372,26 @@
         <state relative-caret-position="60">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
-            <marker date="1459682307905" expanded="true" signature="1794:2242" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2299:2747" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2803:3146" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="3171:3541" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3565:3935" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3964:4296" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="false" signature="6752:6767" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6824:6841" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6899:6916" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6974:6991" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7053:7070" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7131:7148" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7207:7224" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7283:7300" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7363:7380" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7438:7455" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7512:7529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7577:7594" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7642:7659" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7714:7731" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7784:7801" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8470:8478" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8521:8529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8593:8611" placeholder="&lt;~&gt;" />
+            <element signature="imports" expanded="true" />
+            <marker date="1459699569771" expanded="true" signature="1880:2328" placeholder="select disti... stock_prices" />
+            <marker date="1459699569771" expanded="false" signature="4813:4828" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4885:4902" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4960:4977" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5035:5052" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5114:5131" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5192:5209" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5268:5285" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5344:5361" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5424:5441" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5499:5516" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5573:5590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5638:5655" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5703:5720" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5775:5792" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5845:5862" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6531:6539" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6582:6590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6654:6672" placeholder="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1306,7 +1433,6 @@
         <state relative-caret-position="60">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1459685176596" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
             <marker date="1459685176596" expanded="true" signature="1673:1742" placeholder="select date " />
           </folding>
@@ -1318,30 +1444,26 @@
         <state relative-caret-position="60">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
-            <marker date="1459682307905" expanded="true" signature="1794:2242" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2299:2747" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2803:3146" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="3171:3541" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3565:3935" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3964:4296" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="false" signature="6752:6767" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6824:6841" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6899:6916" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6974:6991" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7053:7070" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7131:7148" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7207:7224" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7283:7300" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7363:7380" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7438:7455" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7512:7529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7577:7594" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7642:7659" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7714:7731" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7784:7801" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8470:8478" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8521:8529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8593:8611" placeholder="&lt;~&gt;" />
+            <element signature="imports" expanded="true" />
+            <marker date="1459699569771" expanded="true" signature="1880:2328" placeholder="select disti... stock_prices" />
+            <marker date="1459699569771" expanded="false" signature="4813:4828" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4885:4902" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4960:4977" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5035:5052" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5114:5131" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5192:5209" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5268:5285" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5344:5361" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5424:5441" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5499:5516" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5573:5590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5638:5655" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5703:5720" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5775:5792" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5845:5862" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6531:6539" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6582:6590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6654:6672" placeholder="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1406,7 +1528,6 @@
         <state relative-caret-position="60">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1459685176596" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
             <marker date="1459685176596" expanded="true" signature="1673:1742" placeholder="select date " />
           </folding>
@@ -1418,30 +1539,26 @@
         <state relative-caret-position="60">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
-            <marker date="1459682307905" expanded="true" signature="1794:2242" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2299:2747" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2803:3146" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="3171:3541" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3565:3935" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3964:4296" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="false" signature="6752:6767" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6824:6841" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6899:6916" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6974:6991" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7053:7070" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7131:7148" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7207:7224" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7283:7300" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7363:7380" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7438:7455" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7512:7529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7577:7594" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7642:7659" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7714:7731" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7784:7801" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8470:8478" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8521:8529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8593:8611" placeholder="&lt;~&gt;" />
+            <element signature="imports" expanded="true" />
+            <marker date="1459699569771" expanded="true" signature="1880:2328" placeholder="select disti... stock_prices" />
+            <marker date="1459699569771" expanded="false" signature="4813:4828" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4885:4902" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4960:4977" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5035:5052" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5114:5131" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5192:5209" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5268:5285" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5344:5361" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5424:5441" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5499:5516" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5573:5590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5638:5655" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5703:5720" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5775:5792" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5845:5862" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6531:6539" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6582:6590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6654:6672" placeholder="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1561,39 +1678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="634" column="11" selection-start-line="634" selection-start-column="11" selection-end-line="634" selection-end-column="11" />
-          <folding>
-            <marker date="1459682307905" expanded="true" signature="1794:2242" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2299:2747" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="2803:3146" placeholder="select disti... stock_prices" />
-            <marker date="1459682307905" expanded="true" signature="3171:3541" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3565:3935" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="true" signature="3964:4296" placeholder="select hv.hv... historical_volatility" />
-            <marker date="1459682307905" expanded="false" signature="6752:6767" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6824:6841" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6899:6916" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="6974:6991" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7053:7070" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7131:7148" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7207:7224" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7283:7300" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7363:7380" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7438:7455" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7512:7529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7577:7594" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7642:7659" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7714:7731" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="7784:7801" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8470:8478" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8521:8529" placeholder="&lt;~&gt;" />
-            <marker date="1459682307905" expanded="false" signature="8593:8611" placeholder="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1631,22 +1715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/gui.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/DAO/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -1665,14 +1733,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/inserts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/gui.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/DAO/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetailsBackup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBackUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        <state relative-caret-position="-521">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1459685176596" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
             <marker date="1459685176596" expanded="true" signature="1673:1742" placeholder="select date " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessSectorDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459699026890" expanded="true" signature="1442:1617" placeholder="select disti... security_master" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10785">
+          <caret line="743" column="2" selection-start-line="743" selection-start-column="2" selection-end-line="743" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459698854504" expanded="true" signature="1174:1226" placeholder="select disti... " />
+            <marker date="1459698854504" expanded="false" signature="6645:6662" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="6721:6738" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="6785:6802" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="6854:6871" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="6923:6940" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="6992:7009" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7061:7078" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7130:7147" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7200:7217" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7269:7286" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7338:7355" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7407:7424" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7478:7495" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7548:7565" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7618:7635" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7689:7706" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7759:7776" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7829:7846" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7901:7918" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="7972:7989" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8043:8060" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8114:8131" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8185:8202" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8256:8273" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8326:8343" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8395:8412" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8464:8481" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8533:8550" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8604:8621" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8674:8691" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8744:8761" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8815:8832" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8885:8902" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="8955:8972" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9025:9042" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9094:9111" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9163:9180" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9234:9251" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9304:9321" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9374:9391" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9445:9462" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9515:9532" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9585:9602" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9653:9661" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9711:9719" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9762:9770" placeholder="&lt;~&gt;" />
+            <marker date="1459698854504" expanded="false" signature="9835:9854" placeholder="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="146" column="57" selection-start-line="146" selection-start-column="57" selection-end-line="146" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459699569771" expanded="true" signature="1880:2328" placeholder="select disti... stock_prices" />
+            <marker date="1459699569771" expanded="false" signature="4813:4828" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4885:4902" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="4960:4977" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5035:5052" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5114:5131" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5192:5209" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5268:5285" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5344:5361" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="5424:5441" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5499:5516" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5573:5590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5638:5655" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5703:5720" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5775:5792" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="true" signature="5845:5862" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6531:6539" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6582:6590" placeholder="&lt;~&gt;" />
+            <marker date="1459699569771" expanded="false" signature="6654:6672" placeholder="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
