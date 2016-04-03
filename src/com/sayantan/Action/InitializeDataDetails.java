@@ -1,21 +1,19 @@
 package com.sayantan.Action;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.apache.log4j.Logger;
-
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.opensymphony.xwork2.Preparable;
 import com.sayantan.ActionForm.Gui2FormVars;
 import com.sayantan.DAO.ConnectionManager;
+import org.apache.log4j.Logger;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Map;
 
 public class InitializeDataDetails extends ActionSupport implements
 		ModelDriven<Object>, Preparable {
@@ -24,10 +22,9 @@ public class InitializeDataDetails extends ActionSupport implements
 	private static final Logger logger = Logger
 			.getLogger(InitializeDataDetails.class);
 	Connection conn1 = null;
-	Connection conn2 = null;
 	Statement stmt1 = null;
 	Statement stmt2 = null;
-	ResultSet rsSectorDataSet = null;
+	ResultSet rsDeptDataSet = null;
 	ResultSet rsEntryDataSet = null;
 
 	public void prepare() throws Exception {
@@ -52,8 +49,8 @@ public class InitializeDataDetails extends ActionSupport implements
 		String latestEntry = "";
 
 		// queries
-		String sectorQuery = "select distinct security from stock_prices order by security";
-		String latestEntryQuery = "select date from stock_prices order by date desc limit 1";
+		String deptQuery = "select distinct dept from stock_inventory order by dept";
+		String latestEntryQuery = "select from_date from stock_inventory order by from_date desc limit 1";
 		appFormVars.setFlag(0);
 		// Retrieve the result set
 
@@ -61,23 +58,23 @@ public class InitializeDataDetails extends ActionSupport implements
 		stmt1 = conn1.createStatement();
 		stmt2 = conn1.createStatement();
 		
-		rsSectorDataSet = stmt1.executeQuery(sectorQuery);
+		rsDeptDataSet = stmt1.executeQuery(deptQuery);
 		rsEntryDataSet = stmt2.executeQuery(latestEntryQuery);
 		
 		// create result lists
 		int i = 0;
 
-		while(rsSectorDataSet.next())
+		while(rsDeptDataSet.next())
 		{
-			a.add(i, rsSectorDataSet.getString(1));
+			a.add(i, rsDeptDataSet.getString(1));
 			i++;
 		}
 		i=0;
 		while(rsEntryDataSet.next())
 			latestEntry = rsEntryDataSet.getString(1);
 		Collections.sort(a);
-		Gui2FormVars.setSecurityList(a);
-		Collections.sort(Gui2FormVars.getSecurityList());
+		Gui2FormVars.setDeptList(a);
+		Collections.sort(Gui2FormVars.getDeptList());
 		Gui2FormVars.setLatestEntry(latestEntry);
 		//session.put("userSeed", Gui2FormVars.getDoneRFile());
 		

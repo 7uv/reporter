@@ -1,29 +1,14 @@
 package com.sayantan.Action;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.Statement;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.apache.log4j.Logger;
-import org.apache.poi.hssf.record.formula.functions.Covar;
-import org.hibernate.criterion.ExistsSubqueryExpression;
-
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.opensymphony.xwork2.Preparable;
 import com.sayantan.ActionForm.Gui2FormVars;
-import com.sayantan.DAO.ConnectionManager;
+import org.apache.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Map;
 
 public class StockCorrelation extends ActionSupport implements
 		ModelDriven<Object>, Preparable {
@@ -47,6 +32,7 @@ public class StockCorrelation extends ActionSupport implements
 	public String execute() throws Exception {
 		logger.info("RUNNING AccessDataDetails");
  
+/*
 		// user filters
 		// price time duration
 		DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
@@ -474,14 +460,16 @@ public class StockCorrelation extends ActionSupport implements
 		for (int a = 0; a < returnHistory2.size(); a++)
 			sumReturn12 = sumReturn12 + returnHistory2.get(a)
 					* returnHistory2.get(a);
-		/*for (int a = 0; a < hv1.size(); a++)
+		*/
+/*for (int a = 0; a < hv1.size(); a++)
 			sumHv1 = sumHv1 + hv1.get(a);
 		for (int a = 0; a < hv2.size(); a++)
 			sumHv2 = sumHv2 + hv2.get(a);
 		// logger.info("pkpkp " + sumPrice);
 		hv1avg = sumHv1 / (hv1.size() - 1);
 		hv2avg = sumHv2 / (hv2.size() - 1);
-		*/
+		*//*
+
 		// logger.info("asdf: " + hv1avg + " " + hv2avg);
 
 		if (returnHistory1.get(0) == null)
@@ -501,12 +489,14 @@ public class StockCorrelation extends ActionSupport implements
 //					+ "," + returnHistory2.get(a));
 
 		// calculation of hv ratio
-		/*
+		*/
+/*
 		 * for (int a = 0; a < priceHistoryRatio.size(); a++) sumHvRatio =
 		 * sumHvRatio + (priceHistoryRatio.get(a) - (sumPrice /
 		 * (priceHistoryRatio .size() - 1))) (priceHistoryRatio.get(a) -
 		 * (sumPrice / (priceHistoryRatio .size() - 1)));
-		 */
+		 *//*
+
 		for (int a = 0; a < returnHistoryRatio.size(); a++)
 			if(returnHistoryRatio.get(a) != null)
 				sumHvRatio = sumHvRatio
@@ -554,7 +544,8 @@ public class StockCorrelation extends ActionSupport implements
 		// 1)));
 		logger.info("gr" + priceRatio);
 
-		/*
+		*/
+/*
 		// calculation of index correlation
 				for (int m = 0; m < returnHistory1.size(); m++) {
 					covariance
@@ -592,7 +583,8 @@ public class StockCorrelation extends ActionSupport implements
 				// 1).substring(0,(returnRatio.get(returnRatio.size() - 1).length() -
 				// 1)));
 				logger.info("gr" + priceRatio);
-		*/
+		*//*
+
 
 		
 		appFormVars.setDateHistory(dateHistory);
@@ -638,6 +630,7 @@ public class StockCorrelation extends ActionSupport implements
 
 		session.put("sec", securityValues);
 		logger.info("Stock Correlation Done!" + dateHistory.values());
+*/
 
 		return SUCCESS;
 	}
