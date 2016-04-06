@@ -23,13 +23,13 @@
 </head>
 <body>
 	<!-- Input form -->
-	<s:form name="accessSector" action="accessSector" method="post"
+	<s:form name="accessDept" action="accessDept" method="post"
 		theme="simple" namespace="/">
 		<h4>Filters:</h4>
 		<table>
 			<tr>
-				<td>Sector:</td>
-				<td><s:select name="sector" list="sectorList" headerKey="1"  onchange='this.form.submit()'/>
+				<td>Lob Head:</td>
+				<td><s:select name="dept" list="deptList" headerKey="1"  onchange='this.form.submit()'/>
 				</td>
 				<td>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;</td>
 				<td>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;</td>
@@ -348,367 +348,367 @@
 		<!-- Common fields -->	
 		<display:column  class="colId" title="security" sortable="true" paramId="id"
 			paramProperty="scenarioId" total="true">
-					<%=TradeAppFormVars.getSecurity().get(
+					<%=Gui2FormVars.getSecurity().get(
 									Integer.parseInt(pageContext.getAttribute(
 											"lcp_rowNum").toString()) - 1)%>
 		</display:column>
 
-		<c:if test="<%=TradeAppFormVars.getLastClosePrice().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getLastClosePrice().size() != 0%>">
 			<display:column  class="colId" title="Last Price" sortable="true" paramId="lcp"
 				paramProperty="lcp" escapeXml="true" headerClass="sortable">
-				<%=TradeAppFormVars.getLastClosePrice().get(
+				<%=Gui2FormVars.getLastClosePrice().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getMc().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getMc().size() != 0%>">
 			<display:column  class="colId" title="MC" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getMc().get(
+				<%=Gui2FormVars.getMc().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
 		<!-- Historical Volatility -->
-		<c:if test="<%=TradeAppFormVars.getHv1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getHv1list().size() != 0%>">
 			<display:column  class="colId" title="HV10" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getHv1list().get(
+				<%=Gui2FormVars.getHv1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getHv2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getHv2list().size() != 0%>">
 			<display:column  class="colId" title="HV20" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getHv2list().get(
+				<%=Gui2FormVars.getHv2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getHv3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getHv3list().size() != 0%>">
 			<display:column  class="colId" title="HV60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getHv3list().get(
+				<%=Gui2FormVars.getHv3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 
 		</c:if>
-		<c:if test="<%=TradeAppFormVars.getHv4list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getHv4list().size() != 0%>">
 			<display:column  class="colId" title="HV120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getHv4list().get(
+				<%=Gui2FormVars.getHv4list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getHv5list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getHv5list().size() != 0%>">
 			<display:column  class="colId" title="HV250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getHv5list().get(
+				<%=Gui2FormVars.getHv5list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
 		<!-- Beta Daily -->
-		<c:if test="<%=TradeAppFormVars.getBd1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBd1list().size() != 0%>">
 			<display:column  class="colId" title="BD20" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBd1list().get(
+				<%=Gui2FormVars.getBd1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getBd2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBd2list().size() != 0%>">
 			<display:column  class="colId" title="BD60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBd2list().get(
+				<%=Gui2FormVars.getBd2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getBd3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBd3list().size() != 0%>">
 			<display:column  class="colId" title="BD120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBd3list().get(
+				<%=Gui2FormVars.getBd3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getBd4list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBd4list().size() != 0%>">
 			<display:column  class="colId" title="BD250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBd4list().get(
+				<%=Gui2FormVars.getBd4list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
 		<!-- Beta Daily Up -->
-		<c:if test="<%=TradeAppFormVars.getBdu1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBdu1list().size() != 0%>">
 			<display:column  class="colId" title="BDU60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBdu1list().get(
+				<%=Gui2FormVars.getBdu1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getBdu2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBdu2list().size() != 0%>">
 			<display:column  class="colId" title="BDU120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBdu2list().get(
+				<%=Gui2FormVars.getBdu2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getBdu3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBdu3list().size() != 0%>">
 			<display:column  class="colId" title="BDU250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBdu3list().get(
+				<%=Gui2FormVars.getBdu3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
 		<!-- Beta Daily Down -->
-		<c:if test="<%=TradeAppFormVars.getBdd1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBdd1list().size() != 0%>">
 			<display:column  class="colId" title="BDD60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBdd1list().get(
+				<%=Gui2FormVars.getBdd1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 			
-		<c:if test="<%=TradeAppFormVars.getBdd2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBdd2list().size() != 0%>">
 			<display:column  class="colId" title="BDD120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBdd2list().get(
+				<%=Gui2FormVars.getBdd2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getBdd3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBdd3list().size() != 0%>">
 			<display:column  class="colId" title="BDD250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBdd3list().get(
+				<%=Gui2FormVars.getBdd3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
 		<!-- Correlation -->
-		<c:if test="<%=TradeAppFormVars.getCorr1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getCorr1list().size() != 0%>">
 			<display:column  class="colId" title="Corr10" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getCorr1list().get(
+				<%=Gui2FormVars.getCorr1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 			
-		<c:if test="<%=TradeAppFormVars.getCorr2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getCorr2list().size() != 0%>">
 			<display:column  class="colId" title="Corr20" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getCorr2list().get(
+				<%=Gui2FormVars.getCorr2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getCorr3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getCorr3list().size() != 0%>">
 			<display:column  class="colId" title="Corr40" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getCorr3list().get(
+				<%=Gui2FormVars.getCorr3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getCorr4list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getCorr4list().size() != 0%>">
 			<display:column  class="colId" title="Corr60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getCorr4list().get(
+				<%=Gui2FormVars.getCorr4list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getCorr5list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getCorr5list().size() != 0%>">
 			<display:column  class="colId" title="Correlation120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getCorr5list().get(
+				<%=Gui2FormVars.getCorr5list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
-		<c:if test="<%=TradeAppFormVars.getCorr6list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getCorr6list().size() != 0%>">
 			<display:column  class="colId" title="Corr250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getCorr6list().get(
+				<%=Gui2FormVars.getCorr6list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
 		<!-- Weekly Beta -->				
-		<c:if test="<%=TradeAppFormVars.getWb1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getWb1list().size() != 0%>">
 			<display:column  class="colId" title="WB20" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getWb1list().get(
+				<%=Gui2FormVars.getWb1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getWb2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getWb2list().size() != 0%>">
 			<display:column  class="colId" title="WB60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getWb2list().get(
+				<%=Gui2FormVars.getWb2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getWb3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getWb3list().size() != 0%>">
 			<display:column  class="colId" title="WB120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getWb3list().get(
+				<%=Gui2FormVars.getWb3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getWb4list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getWb4list().size() != 0%>">
 			<display:column  class="colId" title="WB250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getWb4list().get(
+				<%=Gui2FormVars.getWb4list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 			
 		<!-- Beta Weekly Up -->			
-		<c:if test="<%=TradeAppFormVars.getBwu1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBwu1list().size() != 0%>">
 			<display:column  class="colId" title="BWU60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBwu1list().get(
+				<%=Gui2FormVars.getBwu1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getBwu2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBwu2list().size() != 0%>">
 			<display:column  class="colId" title="BWU120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBwu2list().get(
+				<%=Gui2FormVars.getBwu2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getBwu3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBwu3list().size() != 0%>">
 			<display:column  class="colId" title="BWU250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBwu3list().get(
+				<%=Gui2FormVars.getBwu3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
 		<!-- Beta Weekly Down -->			
-		<c:if test="<%=TradeAppFormVars.getBwd1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBwd1list().size() != 0%>">
 			<display:column  class="colId" title="BWD60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBwd1list().get(
+				<%=Gui2FormVars.getBwd1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getBwd2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBwd2list().size() != 0%>">
 			<display:column  class="colId" title="BWD120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBwd2list().get(
+				<%=Gui2FormVars.getBwd2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getBwd3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBwd3list().size() != 0%>">
 			<display:column  class="colId" title="BWD250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBwd3list().get(
+				<%=Gui2FormVars.getBwd3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
 		<!-- Beta Monthly -->				
-		<c:if test="<%=TradeAppFormVars.getBm1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBm1list().size() != 0%>">
 			<display:column  class="colId" title="BM60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBm1list().get(
+				<%=Gui2FormVars.getBm1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getBm2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBm2list().size() != 0%>">
 			<display:column  class="colId" title="BM120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBm2list().get(
+				<%=Gui2FormVars.getBm2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 						
-		<c:if test="<%=TradeAppFormVars.getBm3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBm3list().size() != 0%>">
 			<display:column  class="colId" title="BM250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBm3list().get(
+				<%=Gui2FormVars.getBm3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 		
 		<!-- Beta Monthly Up -->
-		<c:if test="<%=TradeAppFormVars.getBmu1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBmu1list().size() != 0%>">
 			<display:column  class="colId" title="BMU60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBmu1list().get(
+				<%=Gui2FormVars.getBmu1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
-		<c:if test="<%=TradeAppFormVars.getBmu2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBmu2list().size() != 0%>">
 			<display:column  class="colId" title="BMU120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBmu2list().get(
+				<%=Gui2FormVars.getBmu2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
-		<c:if test="<%=TradeAppFormVars.getBmu3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBmu3list().size() != 0%>">
 			<display:column  class="colId" title="BMU250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBmu3list().get(
+				<%=Gui2FormVars.getBmu3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
@@ -716,28 +716,28 @@
 		
 		
 		<!-- Beta Monthly Down -->
-		<c:if test="<%=TradeAppFormVars.getBmd1list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBmd1list().size() != 0%>">
 			<display:column  class="colId" title="BMD60" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBmd1list().get(
+				<%=Gui2FormVars.getBmd1list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
-		<c:if test="<%=TradeAppFormVars.getBmd2list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBmd2list().size() != 0%>">
 			<display:column  class="colId" title="BMD120" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBmd2list().get(
+				<%=Gui2FormVars.getBmd2list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>
 		</c:if>
 
-		<c:if test="<%=TradeAppFormVars.getBmd3list().size() != 0%>">
+		<c:if test="<%=Gui2FormVars.getBmd3list().size() != 0%>">
 			<display:column  class="colId" title="BMD250" sortable="true" paramId="id"
 				paramProperty="scenarioId">
-				<%=TradeAppFormVars.getBmd3list().get(
+				<%=Gui2FormVars.getBmd3list().get(
 								Integer.parseInt(pageContext.getAttribute(
 										"lcp_rowNum").toString()) - 1)%>
 			</display:column>

@@ -53,6 +53,7 @@ public class StockCorrelation extends ActionSupport implements
 		// testing
 		// todayDate = "2012-07-17";
 		// orderDate = "2012-01-03";
+/*
 
 		// Create the query
 		String stock1query = "select distinct sp.date, sp.close, hv.hv"
@@ -123,12 +124,12 @@ public class StockCorrelation extends ActionSupport implements
 		HashMap<Integer, Double> priceHistory1 = new HashMap<Integer, Double>();
 		HashMap<Integer, Double> priceHistory2 = new HashMap<Integer, Double>();
 		HashMap<Integer, Double> priceHistoryRatio = new HashMap<Integer, Double>();
-		
+
 		HashMap<Integer, Double> returnHistory = new HashMap<Integer, Double>();
 		HashMap<Integer, Double> returnHistory1 = new HashMap<Integer, Double>();
 		HashMap<Integer, Double> returnHistory2 = new HashMap<Integer, Double>();
 		HashMap<Integer, Double> returnHistoryRatio = new HashMap<Integer, Double>();
-		
+
 		HashMap<Integer, String> priceRatio = new HashMap<Integer, String>();
 		HashMap<Integer, String> priceCompare = new HashMap<Integer, String>();
 		HashMap<Integer, Double> hv1 = new HashMap<Integer, Double>();
@@ -155,7 +156,7 @@ public class StockCorrelation extends ActionSupport implements
 		Double stock2ReturnSum = 0D;
 		Double stockReturnSum = 0D;
 		// Double meanPrice = 0D;
-		
+
 		ResultSetMetaData rsmd = rsDataSet.getMetaData();
 		int numColumns = rsmd.getColumnCount();
 
@@ -182,7 +183,7 @@ public class StockCorrelation extends ActionSupport implements
 			returnHistory.put(k, r);
 		}
 		//priceHistory.remove(priceHistory.size()-1);
-		
+
 		// logger.info("dat" + dateHistory.values());
 		String prS = null;
 		i = 0;
@@ -205,7 +206,7 @@ public class StockCorrelation extends ActionSupport implements
 			returnHistory1.put(k, r);
 		}
 		//priceHistory1.remove(priceHistory1.size()-1);
-		
+
 		i = 0;
 		while (rsDataSet2.next()) {
 			priceHistory2.put(i, Double.parseDouble(rsDataSet2.getString(2)));
@@ -226,7 +227,7 @@ public class StockCorrelation extends ActionSupport implements
 			returnHistory2.put(k, r);
 		}
 		//priceHistory2.remove(priceHistory2.size()-1);
-		
+
 		i = 0;
 		rsDataSet.beforeFirst();
 		while (rsDataSet.next()) {
@@ -245,13 +246,13 @@ public class StockCorrelation extends ActionSupport implements
 			String hvS = h.toString();
 			String betS = b.toString();
 			String corS = c.toString();
-			
+
 			appFormVars.setHv1(Double.parseDouble(hvS)*100);
 			appFormVars.setBeta1(Double.parseDouble(betS));
 			appFormVars.setCorr1(Double.parseDouble(corS));
 		}
 		while (rsDataSetHv2.next()) {
-			
+
 			Double t1 = Double.parseDouble(rsDataSetHv2.getString(1));
 			Double t2 = Double.parseDouble(rsDataSetHv2.getString(2));
 			Double t3 = Double.parseDouble(rsDataSetHv2.getString(3));
@@ -264,7 +265,7 @@ public class StockCorrelation extends ActionSupport implements
 			String hvS = h.toString();
 			String betS = b.toString();
 			String corS = c.toString();
-			
+
 			appFormVars.setHv2(Double.parseDouble(hvS)*100);
 			appFormVars.setBeta2(Double.parseDouble(betS));
 			appFormVars.setCorr2(Double.parseDouble(corS));
@@ -282,7 +283,7 @@ public class StockCorrelation extends ActionSupport implements
 			String hvS = h.toString();
 			String betS = b.toString();
 			String corS = c.toString();
-			
+
 			appFormVars.setHvNifty(Double.parseDouble(hvS));
 			appFormVars.setBetaNifty(Double.parseDouble(betS));
 			appFormVars.setCorrNifty(Double.parseDouble(corS));
@@ -385,6 +386,7 @@ public class StockCorrelation extends ActionSupport implements
 		for (int a = 0; a < returnHistory2.size(); a++)
 			sumReturn12 = sumReturn12 + returnHistory2.get(a)
 					* returnHistory2.get(a);
+*/
 
 		return SUCCESS;
 	}

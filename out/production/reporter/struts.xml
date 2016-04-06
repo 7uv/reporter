@@ -12,7 +12,30 @@
 			<result name="input">errorPage.jsp</result>
 			<result name="success">gui.jsp</result>
 		</action>
-		<!-- Insert Data -->
+    <!--  Initialize Sector -->
+    <action name="accessDept" class="com.sayantan.Action.AccessDeptDetails">
+        <exception-mapping result="runtime" exception="java.lang.Exception" />
+        <result name="runtime">errorPage.jsp</result>
+        <result name="input">errorPage.jsp</result>
+        <result name="success">gui.jsp</result>
+    </action>
+    <!-- Insert Data -->
+    <action name="accessDetails" class="com.sayantan.Action.AccessDataDetails">
+        <interceptor-ref name="exception" />
+        <interceptor-ref name="prepare" />
+        <interceptor-ref name="modelDriven" />
+        <interceptor-ref name="checkbox" />
+        <interceptor-ref name="params" />
+        <interceptor-ref name="validation" />
+        <interceptor-ref name="workflow" />
+        <interceptor-ref name="defaultStack" />
+        <exception-mapping result="runtime" exception="java.lang.Exception" />
+        <result name="runtime">errorPage.jsp</result>
+        <result name="input">welcome.jsp</result>
+        <result name="success">gui.jsp</result>
+    </action>
+
+    <!-- Insert Data -->
 		<action name="stockCorrelation" class="com.sayantan.Action.StockCorrelation">
 			<interceptor-ref name="exception" />
 			<interceptor-ref name="prepare" />

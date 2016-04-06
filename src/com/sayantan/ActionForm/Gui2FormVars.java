@@ -21,7 +21,10 @@ public class Gui2FormVars
     private static String fromDate = "";
     private static String toDate = "";
     private static String dept = "";
+    private static String llob = "";
     private static ArrayList<String> deptList = new ArrayList<>();
+    private static ArrayList<String> llobList = new ArrayList<>();
+    private static String sn;
     private int priceHistoryField;
 
     //create result lists
@@ -33,6 +36,30 @@ public class Gui2FormVars
     private HashMap<Integer, Double> total = new HashMap<>();
 
     // Getters and Setters
+
+    public static String getSn() {
+        return sn;
+    }
+
+    public static void setSn(String sn) {
+        Gui2FormVars.sn = sn;
+    }
+
+    public static String getLlob() {
+        return llob;
+    }
+
+    public static void setLlob(String llob) {
+        Gui2FormVars.llob = llob;
+    }
+
+    public static ArrayList<String> getLlobList() {
+        return llobList;
+    }
+
+    public static void setLlobList(ArrayList<String> llobList) {
+        Gui2FormVars.llobList = llobList;
+    }
 
     public static String getLatestEntry() {
         return latestEntry;

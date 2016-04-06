@@ -1,35 +1,28 @@
 package com.sayantan.Action;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.apache.log4j.Logger;
-
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.opensymphony.xwork2.Preparable;
-import com.sayantan.ActionForm.TradeAppFormVars;
-import com.sayantan.DAO.ConnectionManager;
+import com.sayantan.ActionForm.Gui2FormVars;
+import org.apache.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.Map;
 
 public class CopyOfAccessDataDetails extends ActionSupport implements
 		ModelDriven<Object>, Preparable {
 	private static final long serialVersionUID = -7012445214546281834L;
 	Map<String, Object> session = ActionContext.getContext().getSession();
 
-	private TradeAppFormVars appFormVars;
+	private Gui2FormVars appFormVars;
 	private static final Logger logger = Logger
 			.getLogger(CopyOfAccessDataDetails.class);
 	ArrayList<String> securityValuesq = new ArrayList<String>();
 
 	public void prepare() throws Exception {
 		// TODO Auto-generated method stub
-		appFormVars = new TradeAppFormVars();
+		appFormVars = new Gui2FormVars();
 	} 
 
 	public Object getModel() {
@@ -40,6 +33,7 @@ public class CopyOfAccessDataDetails extends ActionSupport implements
 	@Override
 	public String execute() throws Exception {
 		logger.info("RUNNING AccessDataDetails");
+/*
 
 		// Create the query
 		// user filters
@@ -155,11 +149,13 @@ public class CopyOfAccessDataDetails extends ActionSupport implements
 				+ appFormVars.getFromDate() + "' and wb.date = '"
 				+ appFormVars.getFromDate() + "' and mb.date = '"
 				+ appFormVars.getFromDate() + "'";
-		/*
+		*/
+/*
 		 * if(appFormVars.isFno()) dataDetailsQuery +=
 		 * " and sm.indices='FUTSTK' "; if(appFormVars.isNstocks())
 		 * dataDetailsQuery += " and sm.indices=' ' ";
-		 */
+		 *//*
+
 		// output limit
 		// dataDetailsQuery += " limit 100 ";
 
@@ -443,6 +439,7 @@ public class CopyOfAccessDataDetails extends ActionSupport implements
 		session.put("sec", securityValues);
 		session.put("security12", security12);
 		session.put("securityInSession", TradeAppFormVars.getSecurity());
+*/
 
 		return SUCCESS;
 	}
