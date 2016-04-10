@@ -72,6 +72,7 @@ public class InitializeDataDetails extends ActionSupport implements
 		i=0;
 		while(rsEntryDataSet.next())
 			latestEntry = rsEntryDataSet.getString(1);
+		a.add(i,"All");
 		Collections.sort(a);
 		Gui2FormVars.setDeptList(a);
 		Collections.sort(Gui2FormVars.getDeptList());

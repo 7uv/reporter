@@ -40,6 +40,7 @@
           href="datepicker/datepickercontrol.css">
     <link rel="stylesheet" type="text/css" href="css/global.css" />
     <link type="text/css" rel="stylesheet" href="css/displayDecorator.css">
+    <link type="text/css" rel="stylesheet" href="css/alternative.css">
     <link type="text/css" rel="stylesheet" href="css/base.css">
     <link type="text/css" rel="stylesheet" href="css/screen.css">
     <link type="text/css" rel="stylesheet" href="css/global.css">
@@ -47,7 +48,7 @@
 </head>
 <body>
 <!-- Input form -->
-<s:form name="stockCorrelation" action="stockCorrelation" method="post"
+<s:form name="stockReport" action="accessDetails" method="post"
         theme="simple" namespace="/">
     <h4>Filters:</h4>
     <table>
@@ -58,7 +59,7 @@
             <td>&nbsp;&nbsp;</td>
             <td>Price History:</td>
             <td><s:select name="priceHistoryField"
-                          list="#{30:30, 60:60, 120:120, 250:250, 500:500}" headerKey="1" />
+                          list="#{'All':'All',30:30, 60:60, 120:120, 250:250}" headerKey="1" />
             </td>
         </tr>
         <tr>
@@ -88,7 +89,47 @@
 <p></p>
 
 <h4>Results:</h4>
-<!-- Results Output -->
+<!-- Results page -->
+<display:table id="lcp" name="lcp" pagesize="10"
+               sort="list" export="true" requestURI="/accessDetails.action"
+               cellspacing="10">
+    <!-- Serial No. -->
+    <% int countess = 0; %>
+    <display:column  class="colId" title="" media="html" paramId="id"
+                     paramProperty="scenarioId" total="true" style="align:right">
+        <!-- check out correct syntax for align -->
+        <%--Integer.parseInt(pageContext.getAttribute(
+                        "lcp_rowNum").toString())--%>
+        <s:set name="rNum" value="%{lcp.row_rowNum}" />
+    </display:column>
+
+    <!-- Common fields -->
+    <display:column  class="colId" title="security" sortable="true" paramId="id"
+                     paramProperty="scenarioId" total="true">
+        <%=Gui2FormVars.getIdMap().get(
+                Integer.parseInt(pageContext.getAttribute(
+                        "lcp_rowNum").toString()) - 1)%>
+    </display:column>
+
+    <c:if test="<%=Gui2FormVars.getDeptMap().size() != 0%>">
+        <display:column  class="colId" title="Last Price" sortable="true" paramId="lcp"
+                         paramProperty="lcp" escapeXml="true" headerClass="sortable">
+            <%=Gui2FormVars.getDeptMap().get(
+                    Integer.parseInt(pageContext.getAttribute(
+                            "lcp_rowNum").toString()) - 1)%>
+        </display:column>
+    </c:if>
+
+
+    <display:column>
+    </display:column>
+
+    <!-- Footer -->
+    <br>
+    <br>
+    <%-- <display:caption><h3>Trade Details</h3></display:caption> --%>
+    <display:setProperty name="paging.banner.placement" value="bottom" />
+</display:table>
 <!-- Graph -->
 </body>
 </html>
