@@ -113,7 +113,8 @@ public class AccessDataDetails extends ActionSupport implements
 
         while (rsDataSet.next()) {
             secLink.add(rsDataSet.getString(1));
-            lcp.add(Double.parseDouble(rsDataSet.getString(2)));
+
+            lcp.add(Double.parseDouble(rsDataSet.getString(1)));
         }
 
 		Gui2FormVars.setIdMap(id);
