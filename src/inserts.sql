@@ -1,4 +1,4 @@
-drop table stock_inventory;
+-- drop table stock_inventory;
 
 CREATE TABLE `stock_inventory` (
   `id` bigint(20) NOT NULL,
