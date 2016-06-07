@@ -2,129 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad63d354-5f67-4f7e-bf2e-6ede3bfd50ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/.history/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616.sql" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/console.sql" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/console_1.sql" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/glassfish.extensions.xml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/javaeeExternalResources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/artifacts/aggregator_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/artifacts/aggregator_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_4_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_hibernate_validator_annotation_processor_5_1_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_core_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_1_2_Final_wildfly_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_10_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0_alpha_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0_alpha_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_impl_base_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_spec_javax_faces_jboss_jsf_api_2_2_spec_2_2_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/cl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/artifacts/classic_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_antlr_antlr_runtime_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_plastic_5_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry5_annotations_5_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry_core_5_3_6.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry_func_5_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry_ioc_5_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry_json_5_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/src/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/META-INF/application.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorldClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/tapestry.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/artifacts/Struts2Example_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/artifacts/Struts2Example_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__asm_asm_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__cglib_cglib_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__com_opensymphony_xwork_core_2_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__javax_transaction_jta_1_0_1B.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_1_2_Final_wildfly_1.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__ognl_ognl_2_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_apache_struts_struts2_core_2_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_freemarker_freemarker_2_3_15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_hibernate_hibernate_3_2_7_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_springframework_spring_test_2_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reporter.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/console.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/src/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_core_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/javaeeExternalResources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_plastic_5_3_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0_alpha_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0_alpha_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/artifacts/Struts2Example_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry_json_5_3_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__javax_transaction_jta_1_0_1B.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/console_1.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_antlr_antlr_runtime_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_spec_javax_faces_jboss_jsf_api_2_2_spec_2_2_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_impl_base_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry5_annotations_5_3_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__cglib_cglib_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_hibernate_validator_annotation_processor_5_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/artifacts/aggregator_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/glassfish.extensions.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_apache_struts_struts2_core_2_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry_core_5_3_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__ognl_ognl_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/artifacts/Struts2Example_war.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/Struts2Example.iml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" afterPath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java" afterPath="$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.classpath" afterPath="$PROJECT_DIR$/../reports/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../reports/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.project" afterPath="$PROJECT_DIR$/../reports/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/cl.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__asm_asm_1_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/consoles/.history/db/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_4_3_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorld.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/META-INF/application.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_10_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_2_spec_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__com_opensymphony_xwork_core_2_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/artifacts/classic_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cl/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_freemarker_freemarker_2_3_15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../imports/war/Struts2Example/.idea/libraries/Maven__org_springframework_spring_test_2_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_1_2_Final_wildfly_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../classic/.idea/libraries/Maven__org_apache_tapestry_tapestry_ioc_5_3_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/artifacts/aggregator_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tapestry/tapestry.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../reports/src/main/java/example/HelloWorldClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../aggregator/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_1_2_Final_wildfly_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/pom.xml" afterPath="$PROJECT_DIR$/../reports/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/reports.eml" afterPath="$PROJECT_DIR$/../reports/reports.eml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/reports.iml" afterPath="$PROJECT_DIR$/../reports/reports.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../reports/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.classpath" afterPath="$PROJECT_DIR$/../reports/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/.project" afterPath="$PROJECT_DIR$/../reports/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reports/reports.eml" afterPath="$PROJECT_DIR$/../reports/reports.eml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" afterPath="$USER_HOME$/.IntelliJIdea15/config/options/ignore.xml" />
     </list>
     <ignored path="reporter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -178,20 +185,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gui.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/gui.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="1770">
               <caret line="118" column="50" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="50" />
               <folding />
             </state>
@@ -201,7 +198,7 @@
       <file leaf-file-name="jit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/jit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1350">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -213,12 +210,9 @@
       <file leaf-file-name="AccessDataDetails.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="120" column="46" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
+            <state relative-caret-position="1215">
+              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#829#837#0" expanded="true" />
-                <element signature="e#3047#3066#0" expanded="true" />
                 <marker date="1460301437204" expanded="true" signature="1448:1489" placeholder="select * fro... stock_inventory" />
                 <marker date="1460301437204" expanded="true" signature="2292:2294" placeholder="&lt;~&gt;" />
                 <marker date="1460301437204" expanded="true" signature="2345:2347" placeholder="&lt;~&gt;" />
@@ -236,6 +230,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1515">
+              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="inserts.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inserts.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -249,7 +253,7 @@
       <file leaf-file-name="AccessDeptDetails.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDeptDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="810">
               <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
               <folding>
                 <marker date="1459812183250" expanded="true" signature="1472:1532" placeholder="select disti... security_master" />
@@ -263,7 +267,7 @@
       <file leaf-file-name="InitializeDataDetails.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="915">
               <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
               <folding>
                 <marker date="1460289168381" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
@@ -372,10 +376,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="25" />
-    <option name="width" value="1368" />
-    <option name="height" value="750" />
+    <option name="y" value="26" />
+    <option name="width" value="1366" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -388,7 +391,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -401,161 +404,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sayantan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sayantan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActionForm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sayantan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -1266,50 +1115,56 @@
       <workItem from="1459641078318" duration="15271000" />
       <workItem from="1459808486278" duration="4603000" />
       <workItem from="1459973228968" duration="1753000" />
-      <workItem from="1460165040841" duration="23835000" />
+      <workItem from="1460165040841" duration="24631000" />
+      <workItem from="1460840671409" duration="790000" />
+      <workItem from="1460841806501" duration="2478000" />
+      <workItem from="1461424926988" duration="6071000" />
+      <workItem from="1461623485519" duration="607000" />
+      <workItem from="1462007702534" duration="849000" />
+      <workItem from="1462093970092" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54184000" />
+    <option name="totallyTimeSpent" value="65783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="750" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="26" width="1366" height="742" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721713" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43423137" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27912253" sideWeight="0.49019608" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="99" y="125" width="1168" height="550" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33755943" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49019608" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="99" y="125" width="1168" height="550" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
@@ -1347,7 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,9 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1394,14 +1245,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java" />
     <entry file="file://$PROJECT_DIR$/src/struts.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1421,7 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,64 +1310,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBak.java" />
     <entry file="file://$PROJECT_DIR$/src/struts-default.xml" />
-    <entry file="file://$PROJECT_DIR$/web/guiBakup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessSectorDetailsBackup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/CopyOfAccessDataDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBackUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/guiBakup.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessSectorDetailsBackup.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/CopyOfAccessDataDetails.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelationBackUp.java" />
     <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/StockCorrelation.java" />
     <entry file="dbDummy://dbtable:/d42ba051/4c2e52f9-3bff-4797-8bdc-3e47eb9f2616/reports.stock_inventory">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1536,211 +1342,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Copy of gui-1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7286">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetailsBackup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="244" column="8" selection-start-line="244" selection-start-column="8" selection-end-line="245" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Copy of gui-1.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetailsBackup.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVars.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2238#2239#0" expanded="true" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2441#2442#0" expanded="true" />
-            <element signature="e#2467#2468#0" expanded="true" />
-            <element signature="e#2516#2517#0" expanded="true" />
-            <element signature="e#2546#2547#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2621#2622#0" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
-            <element signature="e#2793#2794#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2904#2905#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
-            <element signature="e#2967#2968#0" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
-            <element signature="e#3050#3051#0" expanded="true" />
-            <element signature="e#3092#3093#0" expanded="true" />
-            <element signature="e#3123#3124#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-            <element signature="e#3226#3227#0" expanded="true" />
-            <element signature="e#3268#3269#0" expanded="true" />
-            <element signature="e#3299#3300#0" expanded="true" />
-            <element signature="e#3354#3355#0" expanded="true" />
-            <element signature="e#3402#3403#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
-            <element signature="e#3481#3482#0" expanded="true" />
-            <element signature="e#3542#3543#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3667#3668#0" expanded="true" />
-            <element signature="e#3720#3721#0" expanded="true" />
-            <element signature="e#3768#3769#0" expanded="true" />
-            <element signature="e#3806#3807#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3884#3885#0" expanded="true" />
-            <element signature="e#3928#3929#0" expanded="true" />
-            <element signature="e#3966#3967#0" expanded="true" />
-            <element signature="e#3993#3994#0" expanded="true" />
-            <element signature="e#4040#4041#0" expanded="true" />
-            <element signature="e#4080#4081#0" expanded="true" />
-            <element signature="e#4118#4119#0" expanded="true" />
-            <element signature="e#4145#4146#0" expanded="true" />
-            <element signature="e#4192#4193#0" expanded="true" />
-            <element signature="e#4232#4233#0" expanded="true" />
-            <element signature="e#4285#4286#0" expanded="true" />
-            <element signature="e#4316#4317#0" expanded="true" />
-            <element signature="e#4382#4383#0" expanded="true" />
-            <element signature="e#4430#4431#0" expanded="true" />
-            <element signature="e#4483#4484#0" expanded="true" />
-            <element signature="e#4514#4515#0" expanded="true" />
-            <element signature="e#4580#4581#0" expanded="true" />
-            <element signature="e#4628#4629#0" expanded="true" />
-            <element signature="e#4664#4665#0" expanded="true" />
-            <element signature="e#4689#4690#0" expanded="true" />
-            <element signature="e#4732#4733#0" expanded="true" />
-            <element signature="e#4768#4769#0" expanded="true" />
-            <element signature="e#4809#4810#0" expanded="true" />
-            <element signature="e#4849#4850#0" expanded="true" />
-            <element signature="e#4912#4913#0" expanded="true" />
-            <element signature="e#4970#4971#0" expanded="true" />
-            <element signature="e#5028#5029#0" expanded="true" />
-            <element signature="e#5056#5057#0" expanded="true" />
-            <element signature="e#5124#5125#0" expanded="true" />
-            <element signature="e#5166#5167#0" expanded="true" />
-            <element signature="e#5227#5228#0" expanded="true" />
-            <element signature="e#5261#5262#0" expanded="true" />
-            <element signature="e#5338#5339#0" expanded="true" />
-            <element signature="e#5392#5393#0" expanded="true" />
-            <element signature="e#5451#5452#0" expanded="true" />
-            <element signature="e#5483#5484#0" expanded="true" />
-            <element signature="e#5556#5557#0" expanded="true" />
-            <element signature="e#5606#5607#0" expanded="true" />
-            <element signature="e#5665#5666#0" expanded="true" />
-            <element signature="e#5695#5696#0" expanded="true" />
-            <element signature="e#5766#5767#0" expanded="true" />
-            <element signature="e#5812#5813#0" expanded="true" />
-            <element signature="e#5871#5872#0" expanded="true" />
-            <element signature="e#5901#5902#0" expanded="true" />
-            <element signature="e#5972#5973#0" expanded="true" />
-            <element signature="e#6018#6019#0" expanded="true" />
-            <element signature="e#6081#6082#0" expanded="true" />
-            <element signature="e#6115#6116#0" expanded="true" />
-            <element signature="e#6194#6195#0" expanded="true" />
-            <element signature="e#6248#6249#0" expanded="true" />
-            <element signature="e#6311#6312#0" expanded="true" />
-            <element signature="e#6345#6346#0" expanded="true" />
-            <element signature="e#6424#6425#0" expanded="true" />
-            <element signature="e#6478#6479#0" expanded="true" />
-            <element signature="e#6537#6538#0" expanded="true" />
-            <element signature="e#6567#6568#0" expanded="true" />
-            <element signature="e#6638#6639#0" expanded="true" />
-            <element signature="e#6684#6685#0" expanded="true" />
-            <element signature="e#6744#6745#0" expanded="true" />
-            <element signature="e#6775#6776#0" expanded="true" />
-            <element signature="e#6848#6849#0" expanded="true" />
-            <element signature="e#6896#6897#0" expanded="true" />
-            <element signature="e#6955#6956#0" expanded="true" />
-            <element signature="e#6985#6986#0" expanded="true" />
-            <element signature="e#7056#7057#0" expanded="true" />
-            <element signature="e#7102#7103#0" expanded="true" />
-            <element signature="e#7162#7163#0" expanded="true" />
-            <element signature="e#7192#7193#0" expanded="true" />
-            <element signature="e#7264#7265#0" expanded="true" />
-            <element signature="e#7310#7311#0" expanded="true" />
-            <element signature="e#7360#7361#0" expanded="true" />
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7448#7449#0" expanded="true" />
-            <element signature="e#7482#7483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVarsBak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/gui-1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5298">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="20" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/ActionForm/Gui2FormVarsBak.java" />
+    <entry file="file://$PROJECT_DIR$/web/gui-1.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1748,15 +1385,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/web/gui.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="1770">
+          <caret line="118" column="50" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/jit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+          <folding>
+            <marker date="1460301437204" expanded="true" signature="1448:1489" placeholder="select * fro... stock_inventory" />
+            <marker date="1460301437204" expanded="true" signature="2292:2294" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2345:2347" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2396:2398" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2447:2449" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2501:2503" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2556:2558" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2611:2613" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2662:2664" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2715:2717" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2766:2767" placeholder="&lt;~&gt;" />
+            <marker date="1460301437204" expanded="true" signature="2818:2820" placeholder="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inserts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDeptDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <marker date="1459812183250" expanded="true" signature="1472:1532" placeholder="select disti... security_master" />
+            <marker date="1459812183250" expanded="true" signature="1472:1627" placeholder="select disti... security_master" />
+            <marker date="1459812183250" expanded="true" signature="1472:1631" placeholder="select disti... stock_inventory" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+          <folding>
+            <marker date="1460289168381" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
+            <marker date="1460289168381" expanded="true" signature="1673:1742" placeholder="select date " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1765,16 +1479,6 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/jit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1789,74 +1493,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/gui.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="118" column="50" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDeptDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-          <folding>
-            <marker date="1459812183250" expanded="true" signature="1472:1532" placeholder="select disti... security_master" />
-            <marker date="1459812183250" expanded="true" signature="1472:1627" placeholder="select disti... security_master" />
-            <marker date="1459812183250" expanded="true" signature="1472:1631" placeholder="select disti... stock_inventory" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/InitializeDataDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-          <folding>
-            <marker date="1460289168381" expanded="true" signature="1586:1641" placeholder="select disti... stock_inventory" />
-            <marker date="1460289168381" expanded="true" signature="1673:1742" placeholder="select date " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inserts.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sayantan/Action/AccessDataDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="120" column="46" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#829#837#0" expanded="true" />
-            <element signature="e#3047#3066#0" expanded="true" />
-            <marker date="1460301437204" expanded="true" signature="1448:1489" placeholder="select * fro... stock_inventory" />
-            <marker date="1460301437204" expanded="true" signature="2292:2294" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2345:2347" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2396:2398" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2447:2449" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2501:2503" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2556:2558" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2611:2613" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2662:2664" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2715:2717" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2766:2767" placeholder="&lt;~&gt;" />
-            <marker date="1460301437204" expanded="true" signature="2818:2820" placeholder="&lt;~&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
